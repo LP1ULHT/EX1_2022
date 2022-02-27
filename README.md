@@ -1,6 +1,5 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
-
-*Linguagens de Programação I *
+*Linguagens de Programação I*
 
 # Exercício 1
 
