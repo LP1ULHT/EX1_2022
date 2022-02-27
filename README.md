@@ -22,7 +22,7 @@ Este exercício deverá ser submetido na plataforma Pandora até às 23:59 do di
 
 
 
-## Exercício
+## Descrição
 
 Crie um programa que calcula as raizes do polinómio:
 
@@ -35,4 +35,10 @@ Crie um programa que calcula as raizes do polinómio:
 
 
 
+## Honestidade Académica
+
+Nesta disciplina, espera-se que cada aluno siga os mais altos padrões de honestidade académica. Trabalhos que sejam identificados como cópias serão anulados e os alunos envolvidos terão nota zero - quer tenham copiado, quer tenham deixado copiar.
+Para evitar situações deste género, recomendamos aos alunos que nunca partilhem ou mostrem o seu código.
+A decisão sobre se um trabalho é uma cópia cabe exclusivamente aos docentes da unidade curricular.
+Os alunos são encorajados a discutir os problemas com outros alunos mas não deverão, no entanto, copiar códigos, documentação e relatórios de outros alunos. Em nenhuma circunstância deverão partilhar os seus próprios códigos, documentação e relatórios. De facto, não devem sequer deixar códigos, documentação e relatórios em computadores de uso partilhado.
 
