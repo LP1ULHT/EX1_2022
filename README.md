@@ -28,6 +28,7 @@ Crie um programa que calcula as raizes do polinómio:
 
 
 
+
 ### Detalhes de implementação
 
 
