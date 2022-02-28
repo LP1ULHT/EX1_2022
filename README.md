@@ -26,16 +26,74 @@ Este exercício deverá ser submetido na plataforma Pandora até às 23:59 do di
 
 Crie um programa que calcula as raizes do polinómio:
 
+![](pol2ordem.png)
 
+onde os coeficientes `a`, `b` e `c` podem tomar qualquer valor, incluindo zero. Recorde que, nos casos em que `a != 0`, há duas soluções possíveis dadas pela conhecida fórmula resolvente:
 
+![](roots.png)
+
+E o resultado pode ser real ou complexa (imaginária) dependendo do valor do termo dentro da raiz quadrada.
+
+Por outro lado, se `a` for igual a zero, há apenas uma solução possível e se `a` e `b` forem ambos zero, não faz sentido efectuar qualquer cálculo.
 
 ### Detalhes de implementação
 
+Crie um programa que começa por pedir ao utilizador que insira os valores dos coeficientes `a`, `b` e `c`. Para isso deve imprimir a mensagem
 
+```"Insira os coeficientes a, b e c:\n"```
 
+Em seguida faz os calculos necessários para apresentar o resultado. 
 
+- Caso o resultado tenha apenas um valor, deverá imprimir a seguinte mensagem:
 
+```x1 = <valor>\n```
 
+onde `<valor>` é o resultado apresentado com duas  casas decimais.
+
+- Caso o resultado tenha duas soluções (mesmo que estas sejam iguais) deverá imprimir a seguinte mensagem:
+
+```x1 = <valor1>, x2 = <valor2>\n```
+
+onde `<valor1>` é o valor obtido usando a fórmula resolvente com o sinal `+` e `<valor2>` é o valor obtido usando a fórmula resolvente com o sinal `-` - ambos apresentados com duas casas decimais. Caso o resultado pertença ao conjunto de números imaginários, o resultado deve ser apresentado da seguinte forma:
+
+```x1 = <real> + <imaginario>i, x2 = <real> - <imaginario>i\n```
+
+onde `<real>` é a parte real do resultado obtido e <imaginario> é a parte imaginária do resultado obtido, ambos apresentados com duas casas decimais.
+
+  
+- Caso o resultado seja impossível, ou não faça sentido, o programa deve apresentar a mensagem:
+
+```Solucao Impossivel```
+
+O programa termina após apresentação do resultado.
+  
+### Exemplos de utilização:
+
+```
+Insira os coeficientes a, b e c:
+0 0 1
+Solucao Impossivel
+```
+  
+```
+Insira os coeficientes a, b e c:
+10 20 1
+x1 = -0.05, x2= -1.95
+```  
+
+```
+Insira os coeficientes a, b e c:
+10 20 1
+x1 = -0.05, x2= -1.95
+```  
+
+```
+Insira os coeficientes a, b e c:
+1 1 50
+x1 = -0.50 + 7.05i, x2 = -0.50 -7.05i
+```  
+  
+  
 ## Honestidade Académica
 
 Nesta disciplina, espera-se que cada aluno siga os mais altos padrões de honestidade académica. Trabalhos que sejam identificados como cópias serão anulados e os alunos envolvidos terão nota zero - quer tenham copiado, quer tenham deixado copiar.
