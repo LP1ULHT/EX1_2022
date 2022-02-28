@@ -63,7 +63,7 @@ onde `<real>` é a parte real do resultado obtido e <imaginario> é a parte imag
   
 - Caso o resultado seja impossível, ou não faça sentido, o programa deve apresentar a mensagem:
 
-```Solucao Impossivel```
+```Solucao Impossivel\n```
 
 O programa termina após apresentação do resultado.
   
@@ -75,12 +75,6 @@ Insira os coeficientes a, b e c:
 Solucao Impossivel
 ```
   
-```
-Insira os coeficientes a, b e c:
-10 20 1
-x1 = -0.05, x2= -1.95
-```  
-
 ```
 Insira os coeficientes a, b e c:
 10 20 1
