@@ -67,6 +67,56 @@ onde `<real>` é a parte real do resultado obtido e <imaginario> é a parte imag
 
 O programa termina após apresentação do resultado.
   
+### Informação adicional
+
+Antes de calcular o resultado, deve ter em consideração as seguintes possibilidades:
+*   Se `a` for 0:
+  -  Se `b` for 0: a solução é impossível.
+  -  Se `b` não for 0: há apenas uma solução possível dada por `-c/b`.
+*   Se `a` não for 0:
+  - há duas soluções 
+  - a parte real é dada por `-b/(2*a)`
+  - o valor do termo `b*b - 4*a*c` deve ser usado para determinar se a solução é imaginária ou real. Se o termo for negativo, a solução é imaginária, se o termo for positivo a solução é real. 
+  
+
+Na implementação poderá ter que utilizar uma instrução `if`. O `if` em C avalia uma expressão e executa o bloco de instruções seguinte caso essa expressão seja verdadeira. Opcionalmente, pode-se usar a clausula `else` - o bloco de instruções a seguir ao `else` é executado no caso da expressão do `if` ser falsa.
+  Exemplo:
+ ```C
+if ( a != 0.0 )
+{
+  // faz umas coisas
+}
+else
+{
+  // faz outras coisas
+}
+```
+
+Poderá, e deverá, ter que invocar a função `sqrt` para calcular a raiz quadrada. Para isso terá que incluir a biblioteca `math.h`. Exemplo:
+  
+ ```C
+#include <math.h>
+    
+int main(void)
+{
+    float i = 10;
+    float raiz;  
+
+    if (i > 0)
+    {
+        raiz = sqrt(i);
+    }
+    else  // caso o argumento seja negativo o número é imaginário.
+    {
+        raiz = sqrt(-i);
+    }
+    // ...
+    return 0;
+}
+```
+Tome atenção para não invocar a função com um argumento negativo (tal como no exemplo anterior).
+  
+  
 ### Exemplos de utilização:
 
 ```
@@ -86,7 +136,8 @@ Insira os coeficientes a, b e c:
 1 1 50
 x1 = -0.50 + 7.05i, x2 = -0.50 -7.05i
 ```  
-  
+
+
   
 ## Honestidade Académica
 
