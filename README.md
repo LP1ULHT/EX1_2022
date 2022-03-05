@@ -71,12 +71,12 @@ O programa termina após apresentação do resultado.
 
 Antes de calcular o resultado, deve ter em consideração as seguintes possibilidades:
 *   Se `a` for 0:
-  -  Se `b` for 0: a solução é impossível.
-  -  Se `b` não for 0: há apenas uma solução possível dada por `-c/b`.
+    -    Se `b` for 0: a solução é impossível.
+    -    Se `b` não for 0: há apenas uma solução possível dada por `-c/b`.
 *   Se `a` não for 0:
-  - há duas soluções 
-  - a parte real é dada por `-b/(2*a)`
-  - o valor do termo `b*b - 4*a*c` deve ser usado para determinar se a solução é imaginária ou real. Se o termo for negativo, a solução é imaginária, se o termo for positivo a solução é real. 
+    -   há duas soluções 
+    -   a parte real é dada por `-b/(2*a)`
+    -   o valor do termo `b*b - 4*a*c` deve ser usado para determinar se a solução é imaginária ou real. Se o termo for negativo, a solução é imaginária, se o termo for positivo a solução é real. 
   
 
 Na implementação poderá ter que utilizar uma instrução `if`. O `if` em C avalia uma expressão e executa o bloco de instruções seguinte caso essa expressão seja verdadeira. Opcionalmente, pode-se usar a clausula `else` - o bloco de instruções a seguir ao `else` é executado no caso da expressão do `if` ser falsa.
