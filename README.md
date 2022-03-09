@@ -58,7 +58,7 @@ onde `<valor1>` é o valor obtido usando a fórmula resolvente com o sinal `+` e
 
 ```x1 = <real> + <imaginario>i, x2 = <real> - <imaginario>i\n```
 
-onde `<real>` é a parte real do resultado obtido e <imaginario> é a parte imaginária do resultado obtido, ambos apresentados com duas casas decimais.
+onde `<real>` é a parte real do resultado obtido e `<imaginario>` é a parte imaginária do resultado obtido, ambos apresentados com duas casas decimais.
 
   
 - Caso o resultado seja impossível, ou não faça sentido, o programa deve apresentar a mensagem:
