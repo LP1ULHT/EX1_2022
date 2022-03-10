@@ -54,11 +54,15 @@ onde `<valor>` é o resultado apresentado com duas  casas decimais.
 
 ```x1 = <valor1>, x2 = <valor2>\n```
 
-onde `<valor1>` é o valor obtido usando a fórmula resolvente com o sinal `+` e `<valor2>` é o valor obtido usando a fórmula resolvente com o sinal `-` - ambos apresentados com duas casas decimais. Caso o resultado pertença ao conjunto de números imaginários, o resultado deve ser apresentado da seguinte forma:
+onde `<valor1>` é o valor obtido usando a fórmula resolvente com o sinal `+` e `<valor2>` é o valor obtido usando a fórmula resolvente com o sinal `-` - ambos apresentados com duas casas decimais. 
+
+- Caso o resultado pertença ao conjunto de números imaginários, o resultado deve ser apresentado da seguinte forma:
 
 ```x1 = <real> + <imaginario>i, x2 = <real> - <imaginario>i\n```
 
 onde `<real>` é a parte real do resultado obtido e `<imaginario>` é a parte imaginária do resultado obtido, ambos apresentados com duas casas decimais.
+
+Note que um número é imaginário se o que está da raiz quadrada for negativo. Ou seja, se x < 0, sqrt(x) = sqrt(-x)i.
 
   
 - Caso o resultado seja impossível, ou não faça sentido, o programa deve apresentar a mensagem:
